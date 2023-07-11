@@ -1,0 +1,571 @@
+579  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 12224 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+582  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1519 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1528 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1528 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1596 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1596 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 974 ms
+1856 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1864 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+1929 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+1952 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+1958 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2012 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2039 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2048 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 1.814 seconds (JVM running for 2.542)
+6304 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+6305 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+6305 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+6305 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+6305 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+6306 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5b22b970
+6306 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@57fae983
+6306 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+6306 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+6317 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+6320 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.dailycodebuffer.ws.SimpleController#home()
+6331 [http-nio-8084-exec-1] INFO  c.d.ws.SimpleController - hey dear logger is working properly
+6341 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+6342 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["Welcome to daily code buffer"]
+6350 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+226312 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+226455 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+226457 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+611  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 2664 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+621  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1498 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1511 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1511 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1596 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1597 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 934 ms
+1824 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1834 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+1909 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+1934 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+1941 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2002 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a271e42a-dbea-4a88-8e45-e3c2b4697713
+
+2134 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ed9499e, org.springframework.security.web.context.SecurityContextPersistenceFilter@162b3d47, org.springframework.security.web.header.HeaderWriterFilter@1816e24a, org.springframework.security.web.csrf.CsrfFilter@45d64d27, org.springframework.security.web.authentication.logout.LogoutFilter@5ff90645, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3d8b319e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@74aa9c72, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@28e19366, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4726927c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3402b4c9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43a51d00, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b275174, org.springframework.security.web.session.SessionManagementFilter@47b179d7, org.springframework.security.web.access.ExceptionTranslationFilter@1976f537, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37ed010a]
+2312 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2356 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2365 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 2.088 seconds (JVM running for 2.835)
+4909 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+4910 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+4910 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+4910 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+4911 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+4911 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4930539b
+4912 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2532b351
+4912 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+4912 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+51899 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+52019 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+52020 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+587  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 656 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+590  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1384 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1395 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1396 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1471 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1471 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 838 ms
+1689 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1699 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+1782 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+1813 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+1823 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+1887 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f741a2b4-7cb0-4d7e-996a-0329c8261e6c
+
+2070 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@244e619a, org.springframework.security.web.context.SecurityContextPersistenceFilter@46d567cb, org.springframework.security.web.header.HeaderWriterFilter@162b3d47, org.springframework.security.web.csrf.CsrfFilter@41fed14f, org.springframework.security.web.authentication.logout.LogoutFilter@4b7c4456, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3d7b1f1c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@c1fca2a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@10acd6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b275174, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@173f73e7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4efc25fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61dde151, org.springframework.security.web.session.SessionManagementFilter@3402b4c9, org.springframework.security.web.access.ExceptionTranslationFilter@47b179d7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a82ebf8]
+2137 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2239 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2249 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 2.009 seconds (JVM running for 2.702)
+9362 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+9481 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+9482 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+569  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 21332 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+572  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1346 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1356 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1356 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1422 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1422 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 808 ms
+1623 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1630 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+1692 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+1714 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+1722 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+1791 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: dfb9002f-6b08-41d0-8ec1-ff6a4bdc51c3
+
+1904 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@244e619a, org.springframework.security.web.context.SecurityContextPersistenceFilter@46d567cb, org.springframework.security.web.header.HeaderWriterFilter@162b3d47, org.springframework.security.web.csrf.CsrfFilter@41fed14f, org.springframework.security.web.authentication.logout.LogoutFilter@4b7c4456, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3d7b1f1c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@c1fca2a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@10acd6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b275174, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@173f73e7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4efc25fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61dde151, org.springframework.security.web.session.SessionManagementFilter@3402b4c9, org.springframework.security.web.access.ExceptionTranslationFilter@47b179d7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a82ebf8]
+1941 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2058 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2074 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 1.824 seconds (JVM running for 2.588)
+16954 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16955 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16955 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+16956 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+16956 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+16961 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3bb8aabc
+16962 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3b0ee03a
+16963 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+16963 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+119182 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+119309 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+119311 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+669  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 20564 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+674  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1302 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1322 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+1879 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1890 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1890 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1969 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1970 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1231 ms
+2046 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2049 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2060 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2082 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+788  [restartedMain] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 3788 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+811  [restartedMain] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+910  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+910  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2451 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2466 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2467 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2558 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2559 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1648 ms
+2964 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2975 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+3098 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+3241 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+3252 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+3579 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 124c0a11-5754-4c3c-b7bd-efc78ec9a9e2
+
+3865 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27914e9e, org.springframework.security.web.context.SecurityContextPersistenceFilter@5fb04f45, org.springframework.security.web.header.HeaderWriterFilter@4d1604da, org.springframework.security.web.csrf.CsrfFilter@53a66ceb, org.springframework.security.web.authentication.logout.LogoutFilter@a9399e3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8f06457, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@c6b7f04, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@c22a500, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5771728d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27d96a94, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77c63ffe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@509b4b13, org.springframework.security.web.session.SessionManagementFilter@2b536e7d, org.springframework.security.web.access.ExceptionTranslationFilter@3b065638, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44f703ef]
+3962 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+3995 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+4005 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+4103 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+4131 [restartedMain] INFO  com.dailycodebuffer.ws.Application - Started Application in 3.767 seconds (JVM running for 4.781)
+23053 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23054 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23055 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+23058 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+23060 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+23070 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2f379bf1
+23073 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6eee72bb
+23075 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+23075 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+49354 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+49489 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+49492 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+585  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 12352 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+589  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1582 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1594 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1595 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1680 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1681 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 983 ms
+1929 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1935 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2036 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2066 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2077 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2159 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6d0430d6-53d3-4569-8305-654a0871cd17
+
+2355 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5fb65013, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ae0b770, org.springframework.security.web.header.HeaderWriterFilter@62891fc8, org.springframework.security.web.csrf.CsrfFilter@6ea04618, org.springframework.security.web.authentication.logout.LogoutFilter@390877d2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@b0e5507, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@186cb891, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@38a1a26, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@41ffaeb8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30e6a763, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36ddaebf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3fbcfe81, org.springframework.security.web.session.SessionManagementFilter@fca387, org.springframework.security.web.access.ExceptionTranslationFilter@39c1fe0b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@20411320]
+2517 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2554 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2566 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 2.311 seconds (JVM running for 3.058)
+15116 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15116 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15117 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+15117 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+15117 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+15118 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@73017a80
+15119 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4dafba3e
+15119 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+15119 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+77473 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+77588 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+77590 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+557  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 9984 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+560  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1408 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1418 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1418 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1499 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1500 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 889 ms
+1670 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0f46de5a-6f8f-4961-ad28-cad599d1b65a
+
+1756 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f193686, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e8604bf, org.springframework.security.web.header.HeaderWriterFilter@2a27cb34, org.springframework.security.web.csrf.CsrfFilter@f202d6d, org.springframework.security.web.authentication.logout.LogoutFilter@7159139f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2bc9a775, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3db64bd4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@31e72cbc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@149f5761, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e2916c3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@546621c4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fad41be, org.springframework.security.web.session.SessionManagementFilter@6fd1660, org.springframework.security.web.access.ExceptionTranslationFilter@56f71edb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@540dbda9]
+1862 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1869 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+1931 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+1957 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+1966 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2139 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2149 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 1.913 seconds (JVM running for 2.587)
+23139 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+23258 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+23260 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+268  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.dailycodebuffer.ws.ApplicationTests], using SpringBootContextLoader
+278  [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.dailycodebuffer.ws.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+279  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.dailycodebuffer.ws.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+420  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.dailycodebuffer.ws.Application for test class com.dailycodebuffer.ws.ApplicationTests
+574  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+602  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1787f2a0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7de62196, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@163370c2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@51bf5add, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7905a0b8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@35a3d49f, org.springframework.test.context.event.EventPublishingTestExecutionListener@389b0789, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@13d9cbf5, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@478db956, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6ca18a14, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@c667f46, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@51bd8b5c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7b50df34, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1b410b60, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2462cb01]
+932  [main] INFO  c.d.ws.ApplicationTests - Starting ApplicationTests using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 16832 (started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+972  [main] INFO  c.d.ws.ApplicationTests - No active profile set, falling back to default profiles: default
+1029 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@f316aeb
+2687 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2727 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2883 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2993 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+3013 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+3330 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c10ca91a-7ea8-4265-bd43-b57779ae275a
+
+3656 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ba26eb0, org.springframework.security.web.context.SecurityContextPersistenceFilter@49206065, org.springframework.security.web.header.HeaderWriterFilter@3cb8c8ce, org.springframework.security.web.csrf.CsrfFilter@45e1aa48, org.springframework.security.web.authentication.logout.LogoutFilter@16c587de, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ecdbab8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@76db540e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@435e60ff, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7c251f90, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1317b708, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@407873d3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17d32e9b, org.springframework.security.web.session.SessionManagementFilter@70c0a3d5, org.springframework.security.web.access.ExceptionTranslationFilter@66213a0d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6cfd9a54]
+3748 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+3781 [main] INFO  c.d.ws.ApplicationTests - Started ApplicationTests in 3.137 seconds (JVM running for 4.807)
+4142 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@f316aeb, started on Tue Jul 11 16:23:41 IST 2023
+4145 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+4147 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+571  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 19320 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+574  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1350 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1361 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1361 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1435 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1435 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 814 ms
+1639 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1649 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+1712 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+1733 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+1740 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+1808 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ba2b32be-0663-4857-9b38-561f0dfb4809
+
+1924 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5017e1, org.springframework.security.web.context.SecurityContextPersistenceFilter@1816e24a, org.springframework.security.web.header.HeaderWriterFilter@5d7835a8, org.springframework.security.web.csrf.CsrfFilter@1da4b6b3, org.springframework.security.web.authentication.logout.LogoutFilter@1a891add, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5a82ebf8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@373f7450, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@65b66b08, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@51ce6f85, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47b179d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@95bb2a2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4726927c, org.springframework.security.web.session.SessionManagementFilter@1976f537, org.springframework.security.web.access.ExceptionTranslationFilter@76c387f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@23382f76]
+1961 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2065 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2079 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 1.836 seconds (JVM running for 2.556)
+15814 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+15948 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+15950 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+548  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 20872 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+550  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1327 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1336 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1337 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1404 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1404 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 804 ms
+1614 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1622 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+1691 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+1718 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+1725 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+1783 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d785efe6-4108-422f-8d0d-84b423e25f64
+
+1894 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4726927c, org.springframework.security.web.context.SecurityContextPersistenceFilter@47b179d7, org.springframework.security.web.header.HeaderWriterFilter@1976f537, org.springframework.security.web.csrf.CsrfFilter@7e1f584d, org.springframework.security.web.authentication.logout.LogoutFilter@373f7450, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@379ce046, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5ff90645, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7eb6b6b6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5017e1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@162b3d47, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@363a3d15, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ed9499e, org.springframework.security.web.session.SessionManagementFilter@1816e24a, org.springframework.security.web.access.ExceptionTranslationFilter@5d7835a8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d5508e0]
+1931 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2040 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2049 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 1.81 seconds (JVM running for 2.523)
+9111 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+9247 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+9248 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+617  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 12728 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+620  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1495 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1505 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1506 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1581 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1581 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 920 ms
+1810 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1817 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+1879 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+1902 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+1909 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+1989 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 23cb359f-5476-46b5-b4ef-22dbfeb2f37d
+
+2105 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5017e1, org.springframework.security.web.context.SecurityContextPersistenceFilter@1816e24a, org.springframework.security.web.header.HeaderWriterFilter@5d7835a8, org.springframework.security.web.csrf.CsrfFilter@1da4b6b3, org.springframework.security.web.authentication.logout.LogoutFilter@1a891add, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5a82ebf8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@373f7450, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@65b66b08, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@51ce6f85, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47b179d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@95bb2a2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4726927c, org.springframework.security.web.session.SessionManagementFilter@1976f537, org.springframework.security.web.access.ExceptionTranslationFilter@76c387f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@23382f76]
+2147 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2180 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2193 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 1.932 seconds (JVM running for 2.659)
+11682 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11683 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11683 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+11683 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+11683 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+11686 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7ec25216
+11690 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@65fd6708
+11691 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+11692 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+31592 [http-nio-8084-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+31596 [http-nio-8084-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.dailycodebuffer.ws.SimpleController#home()
+31605 [http-nio-8084-exec-8] INFO  c.d.ws.SimpleController - hey dear logger is working properly
+31627 [http-nio-8084-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+31627 [http-nio-8084-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["Welcome to daily code buffer"]
+31632 [http-nio-8084-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+31691 [http-nio-8084-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+31698 [http-nio-8084-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+31700 [http-nio-8084-exec-9] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+31700 [http-nio-8084-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+31703 [http-nio-8084-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+31704 [http-nio-8084-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+31723 [http-nio-8084-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;q=0.8', given [image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+31724 [http-nio-8084-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Tue Jul 11 16:30:17 IST 2023, status=404, error=Not Found, message=, path=/favicon.ico}]
+31791 [http-nio-8084-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+78376 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+78499 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+78501 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+567  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 124 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+571  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1314 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1323 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1323 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1411 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1411 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 794 ms
+1549 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8e4200df-bf5c-4241-b869-16467825638a
+
+1668 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58112bc4, org.springframework.security.web.context.SecurityContextPersistenceFilter@15cea7b0, org.springframework.security.web.header.HeaderWriterFilter@78e89bfe, org.springframework.security.web.csrf.CsrfFilter@25a73de1, org.springframework.security.web.authentication.logout.LogoutFilter@65ae095c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@352e787a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2e140e59, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2301b75, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@719843e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@185f7840, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@656d10a4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3104f7bd, org.springframework.security.web.session.SessionManagementFilter@522ba524, org.springframework.security.web.access.ExceptionTranslationFilter@7ac9af2a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3db64bd4]
+1806 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1814 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+1889 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+1912 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+1921 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+1973 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2079 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2094 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 1.829 seconds (JVM running for 2.591)
+339683 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+339808 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+339810 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+615  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 11432 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+620  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1479 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1492 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1493 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1584 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1585 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 918 ms
+1758 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ee8903cb-2329-436a-8d33-705303769ca3
+
+1848 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3350ebdd, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a27cb34, org.springframework.security.web.header.HeaderWriterFilter@b8a7e43, org.springframework.security.web.csrf.CsrfFilter@766a4535, org.springframework.security.web.authentication.logout.LogoutFilter@5fb7183b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@153d4abb, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5f80fa43, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6818d900, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@253b380a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fd1660, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64aad6db, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@149f5761, org.springframework.security.web.session.SessionManagementFilter@56f71edb, org.springframework.security.web.access.ExceptionTranslationFilter@6136998b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b3315a5]
+1951 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1957 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2049 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2058 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2099 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2212 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2223 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 1.951 seconds (JVM running for 2.742)
+4752 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+4881 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+4882 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+631  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 13444 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+634  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1476 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1485 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1487 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1552 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1553 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 867 ms
+1726 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 5a3a99c2-3357-4602-b1b6-1c20b946a4a2
+
+1816 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a9950f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f80fa43, org.springframework.security.web.header.HeaderWriterFilter@676ff3b0, org.springframework.security.web.csrf.CsrfFilter@4a6c18ad, org.springframework.security.web.authentication.logout.LogoutFilter@2301b75, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3fae596, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2f5c1332, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7ad54c55, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7c3ebc6b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7159139f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55ecbafe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73017a80, org.springframework.security.web.session.SessionManagementFilter@5fb7183b, org.springframework.security.web.access.ExceptionTranslationFilter@3d43fe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6dcd5639]
+1915 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1923 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2000 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2035 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2045 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2097 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2201 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2214 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 1.909 seconds (JVM running for 2.734)
+5782 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+5897 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+5899 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+550  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 19920 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+554  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1548 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1560 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1561 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1636 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1636 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1026 ms
+2152 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+2364 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b48e183, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bab5898, org.springframework.security.web.header.HeaderWriterFilter@527fc8e, org.springframework.security.web.authentication.logout.LogoutFilter@64aad809, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@76332405, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@feb98ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d613308, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@514de325, org.springframework.security.web.session.SessionManagementFilter@432f521f, org.springframework.security.web.access.ExceptionTranslationFilter@57435801, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70211df5]
+2437 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2466 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2517 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2526 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2564 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2604 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2605 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2636 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2650 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2675 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 2.437 seconds (JVM running for 3.202)
+18604 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18605 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18605 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+18606 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+18606 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+18607 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@76a805b7
+18608 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@60d6fdd4
+18608 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+18609 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+18667 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+18675 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+18711 [http-nio-8084-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+18717 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 401
+28335 [http-nio-8084-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+28335 [http-nio-8084-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.dailycodebuffer.ws.SimpleController#home()
+28337 [http-nio-8084-exec-3] INFO  c.d.ws.SimpleController - hey dear logger is working properly
+28356 [http-nio-8084-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+28357 [http-nio-8084-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["Welcome to daily code buffer"]
+28362 [http-nio-8084-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+41716 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+41852 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+41853 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+596  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 17124 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+599  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1556 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1565 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1566 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1634 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1634 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 994 ms
+2137 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+2354 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@187e5235, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c723f2d, org.springframework.security.web.header.HeaderWriterFilter@7132a9dc, org.springframework.security.web.authentication.logout.LogoutFilter@3c78e551, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3fba233d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d7a9786, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e0ec41f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d1d8e1a, org.springframework.security.web.session.SessionManagementFilter@178f268a, org.springframework.security.web.access.ExceptionTranslationFilter@4527f70a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f6874f2]
+2433 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2464 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2509 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2516 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2550 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2582 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2582 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2599 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2609 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2627 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 2.384 seconds (JVM running for 3.103)
+16680 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16681 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16681 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+16682 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+16682 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+16683 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@36baa049
+16684 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@526a9908
+16684 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+16684 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+16803 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+16813 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+17161 [http-nio-8084-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+17167 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 401
+24379 [http-nio-8084-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+24380 [http-nio-8084-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.dailycodebuffer.ws.SimpleController#home()
+24382 [http-nio-8084-exec-2] INFO  c.d.ws.SimpleController - hey dear logger is working properly
+24405 [http-nio-8084-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+24405 [http-nio-8084-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["Welcome to daily code buffer"]
+24409 [http-nio-8084-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+24470 [http-nio-8084-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+24474 [http-nio-8084-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+24480 [http-nio-8084-exec-3] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+24480 [http-nio-8084-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+24480 [http-nio-8084-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+24481 [http-nio-8084-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+24498 [http-nio-8084-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;q=0.8', given [image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+24499 [http-nio-8084-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Tue Jul 11 16:44:25 IST 2023, status=404, error=Not Found, message=, path=/favicon.ico}]
+24550 [http-nio-8084-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+49707 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+49846 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+49847 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+666  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 14152 (C:\Users\Lenovo\Documents\GraphWorkspace\Basic_Security_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Basic_Security_Example)
+669  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1765 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1778 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1778 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1858 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1859 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1147 ms
+2446 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+2681 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fd9e827, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e0ec41f, org.springframework.security.web.header.HeaderWriterFilter@33ecbd6c, org.springframework.security.web.authentication.logout.LogoutFilter@75a0c890, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@30c1da48, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8d8f754, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68ac9ec5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e682398, org.springframework.security.web.session.SessionManagementFilter@571a01f9, org.springframework.security.web.access.ExceptionTranslationFilter@862f408, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22752544]
+2775 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2817 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2894 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2903 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2950 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+3001 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+3002 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+3028 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+3041 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+3061 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 2.735 seconds (JVM running for 3.711)
+34541 [http-nio-8084-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+34542 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+34542 [http-nio-8084-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+34542 [http-nio-8084-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+34542 [http-nio-8084-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+34543 [http-nio-8084-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@53ed80d3
+34546 [http-nio-8084-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@df921b1
+34547 [http-nio-8084-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+34548 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+34638 [http-nio-8084-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+34650 [http-nio-8084-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+34701 [http-nio-8084-exec-2] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+34709 [http-nio-8084-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 401
+39939 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+39940 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.dailycodebuffer.ws.SimpleController#home()
+39942 [http-nio-8084-exec-1] INFO  c.d.ws.SimpleController - hey dear logger is working properly
+39965 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+39966 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["Welcome to daily code buffer"]
+39970 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+40042 [http-nio-8084-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+40046 [http-nio-8084-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+40050 [http-nio-8084-exec-3] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+40051 [http-nio-8084-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+40054 [http-nio-8084-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+40055 [http-nio-8084-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+40071 [http-nio-8084-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;q=0.8', given [image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+40074 [http-nio-8084-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Tue Jul 11 16:46:23 IST 2023, status=404, error=Not Found, message=, path=/favicon.ico}]
+40148 [http-nio-8084-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+82270 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+82408 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+82409 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
